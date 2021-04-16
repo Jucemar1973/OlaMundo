@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCANDO ELEMENTS NA ARVORE DOM ..</title>
+    <style>
+body{
+background-color:blue;
+color:coral;
+font:normal 20pt  ariel;}
+
+    </style>
+</head>
+<body>
+ 
+    <h1> ENCONTRAMOS OS ELEMENTOS NA ARVORE WINDOW COM 5 SELECIONADORES ...    </h1>
+<P> Sao eles por marca;getElemetsByTagName('')[] , por id;getElementById(''), por name;getElementsByName('')[] . </P>
+<p>  Por ClassName;getElementsByColassName('')[0]  e da maneira mais nova da ecma querySelector('') e querySelectorAll('')[]  ..  </p>
+
+
+<div class='teste'>  ONMOUSEDOWN..</div>
+
+
+<script>
+
+
+var s = window.document.querySelector('div.teste')
+
+s.innerText='ESTUDOS DOM '
+s.style.background='black'
+window.document.write(s.innerTesxt='MAIS ESTUDOS ')
+
+</script>
+
+
+
+</body>
+</html>
